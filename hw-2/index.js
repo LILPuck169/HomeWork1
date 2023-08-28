@@ -43,6 +43,11 @@ const user = {
   age: 20,
   isAdmin: true,
 };
+user.cityOfResidence = true;
+user.age = 30;
+delete user.cityOfResidence;
+let info = prompt("Какую информацию хотите узнать о пользователе");
+alert(user[info]);
 // Задача 10
 let whatIsYourName = prompt("Как тебя зовут?");
 alert(`Привет, ${whatIsYourName} !`);
