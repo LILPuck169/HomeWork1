@@ -54,6 +54,9 @@ body {
   font-size: 18px;
   font-weight: 400;
 }
+.header__buttom:hover {
+  background: #cf6f8c;
+}
 
 .main {
   height: 556px;
@@ -83,6 +86,11 @@ body {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px; /* 133.333% */
+  transition: 1s;
+}
+.main__img-first:hover {
+  border-radius: 16px;
+  border: 1px solid #00c2fd;
 }
 .main__img-second {
   width: 379px;
@@ -101,6 +109,11 @@ body {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px; /* 133.333% */
+  transition: 1s;
+}
+.main__img-second:hover {
+  border-radius: 16px;
+  border: 1px solid #00c2fd;
 }
 .main__img-third {
   width: 379px;
@@ -119,6 +132,11 @@ body {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px; /* 133.333% */
+  transition: 1s;
+}
+.main__img-third:hover {
+  border-radius: 16px;
+  border: 1px solid #00c2fd;
 }
 
 @media (max-width: 767px) {

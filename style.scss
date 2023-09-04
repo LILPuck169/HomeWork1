@@ -48,6 +48,9 @@ body {
     color: #fff;
     font-size: 18px;
     font-weight: 400;
+    &:hover {
+      background: #cf6f8c;
+    }
   }
 }
 .main {
@@ -77,6 +80,11 @@ body {
     font-size: 24px;
     font-weight: 600;
     line-height: 32px; /* 133.333% */
+    transition: 1s;
+    &:hover {
+      border-radius: 16px;
+      border: 1px solid #00c2fd;
+    }
   }
   &__img-second {
     width: 379px;
@@ -95,6 +103,11 @@ body {
     font-size: 24px;
     font-weight: 600;
     line-height: 32px; /* 133.333% */
+    transition: 1s;
+    &:hover {
+      border-radius: 16px;
+      border: 1px solid #00c2fd;
+    }
   }
   &__img-third {
     width: 379px;
@@ -113,6 +126,11 @@ body {
     font-size: 24px;
     font-weight: 600;
     line-height: 32px; /* 133.333% */
+    transition: 1s;
+    &:hover {
+      border-radius: 16px;
+      border: 1px solid #00c2fd;
+    }
   }
 }
 @import "mobile";
