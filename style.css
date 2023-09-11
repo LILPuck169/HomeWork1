@@ -139,6 +139,30 @@ body {
   border: 1px solid #00c2fd;
 }
 
+.middle {
+  height: 800px;
+  background-image: url(img/middleBackGround.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.middle__box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.middle__box-header {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+.middle__box-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
