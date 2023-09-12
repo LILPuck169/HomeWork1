@@ -139,6 +139,8 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
   &__box {
     display: flex;
     flex-direction: column;
