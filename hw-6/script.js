@@ -16,8 +16,22 @@
 //   console.log(`${index}: ${el}, массив: ${arr}`);
 // });
 
-let letters = "Yaroslav";
+//Метод split
 
-let arr = letters.split( '' );
+//Метод Sort
+// let letters = ["C", "W", "D", "B", "A"];
+// letters = letters.sort();
+// console.log(letters);
 
-console.log(arr);
+//Метод join()
+// let letters = ["M", "O", "T", "H", "E"];
+// letters = letters.join("");
+// console.log(letters);
+
+// Метод pop()
+let products = ["Armchair", "Chair", "Table"];
+console.log(products.pop());
+console.log(products);
+// Метод push()
+// Метод unshift()
+// Метод shift()
