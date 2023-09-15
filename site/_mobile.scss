@@ -42,4 +42,28 @@
       height: 300px;
     }
   }
+  .middle {
+    height: 653.61px;
+    flex-wrap: wrap;
+    &__box {
+      flex-wrap: wrap;
+    }
+    &__box-header {
+      color: #fff;
+      text-align: center;
+      font-size: 32px;
+      font-weight: 700;
+    }
+    &__box-text {
+      color: #fff;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22px;
+    }
+    &__img-im {
+      width: 344px;
+      height: 236px;
+    }
+  }
 }

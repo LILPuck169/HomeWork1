@@ -139,6 +139,32 @@ body {
   border: 1px solid #00c2fd;
 }
 
+.middle {
+  height: 800px;
+  background-image: url(img/middleBackGround.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+}
+.middle__box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.middle__box-header {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+.middle__box-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -182,5 +208,29 @@ body {
   .main__img_third {
     width: 343px;
     height: 300px;
+  }
+  .middle {
+    height: 653.61px;
+    flex-wrap: wrap;
+  }
+  .middle__box {
+    flex-wrap: wrap;
+  }
+  .middle__box-header {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .middle__box-text {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  .middle__img-im {
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */
