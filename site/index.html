@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Хидер -->
+
     <header class="header center">
       <h1 class="header__title">Добро пожаловать на мой сайт !</h1>
       <p class="header__text">
@@ -22,6 +24,9 @@
       </p>
       <button class="header__buttom">Поехали!</button>
     </header>
+
+    <!-- МАИН -->
+
     <main class="main center">
       <div class="main__img-box">
         <div class="main__img-first">Игра 1</div>
@@ -29,6 +34,9 @@
         <div class="main__img-third">Игра 3</div>
       </div>
     </main>
+
+    <!-- Игра первая -->
+
     <section class="middle center">
       <div class="middle__box">
         <h2 class="middle__box-header">Времена года!</h2>
@@ -42,6 +50,27 @@
         <img class="middle__img-im" src="img/gamepad.png" alt="гейм пад" />
       </div>
     </section>
+
+    <!-- Игра вторая -->
+
+    <section class="bottom center">
+      <div class="bottom__img">
+        <img
+          class="bottom__img-im"
+          src="img/bottomGamePad.png"
+          alt="Джойстик игровой"
+        />
+      </div>
+      <div class="bottom__box">
+        <h2 class="bottom__box-header">Запомни слова</h2>
+        <p class="bottom__box-text">
+          При нажатии на кнопку играть, вы увидите несколько слов,<br />
+          которые вам необходимо запомнить.
+        </p>
+        <button onclick="playGame()" class="header__buttom">Играть</button>
+      </div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>

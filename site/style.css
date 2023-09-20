@@ -165,6 +165,32 @@ body {
   line-height: 32px;
 }
 
+.bottom {
+  height: 800px;
+  background-image: url(img/middleBackGround.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom__box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.bottom__box-header {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+.bottom__box-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -230,6 +256,30 @@ body {
     line-height: 22px;
   }
   .middle__img-im {
+    width: 344px;
+    height: 236px;
+  }
+  .bottom {
+    height: 653.61px;
+    flex-wrap: wrap;
+  }
+  .bottom__box {
+    flex-wrap: wrap;
+  }
+  .bottom__box-header {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .bottom__box-text {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  .bottom__img-im {
     width: 344px;
     height: 236px;
   }
