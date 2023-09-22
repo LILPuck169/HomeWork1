@@ -44,7 +44,7 @@
 //Task 6
 // let num = Number(prompt("Введите число"));
 // function getRandomArrNumbers(num) {
-//   const arrayLength = num / 2;
+//   const arrayLength = Math.floor(num / 2);
 //   const randomArray = [];
 //   for (let i = 0; i < arrayLength; i++) {
 //     const randomNum = Math.floor(Math.random() * num);
@@ -85,18 +85,18 @@
 // ];
 
 // const months = [
-//   "Январь",
-//   "Февраль",
-//   "Март",
-//   "Апрель",
-//   "Май",
-//   "Июнь",
-//   "Июль",
-//   "Август",
-//   "Сентябрь",
-//   "Октябрь",
-//   "Ноябрь",
-//   "Декабрь",
+//   "января",
+//   "февраля",
+//   "марта",
+//   "апреля",
+//   "майя",
+//   "июня",
+//   "июля",
+//   "августа",
+//   "сентября",
+//   "октября",
+//   "ноября",
+//   "декабря",
 // ];
 
 // let myDate = new Date();
