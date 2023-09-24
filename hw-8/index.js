@@ -38,13 +38,12 @@
 
 //Task 3
 // const timer = () => {
-
 //   let date = new Date();
 //   console.log(date);
-//     const interval = setInterval(() => {
-//       let ddate = new Date()
+//   const interval = setInterval(() => {
+//     let ddate = new Date();
 //     console.log(ddate);
-//     }, 3000);
+//   }, 3000);
 
 //   setTimeout(() => {
 //     clearInterval(interval);
@@ -53,7 +52,7 @@
 // };
 
 // const deadline = prompt("На сколько секунд вы хотите поставить таймер?");
-// timer(deadline);
+// timer();
 
 //Task 4
 // function delayForSecond(callback) {
@@ -66,6 +65,15 @@
 //   },1000);
 // }
 
+// delayForSecond(function () {
+//   console.log("Привет, Глеб!");
+// });
+
+// function delayForSecond(callback) {
+//   setTimeout(() => {
+//     callback();
+//   }, 1000);
+// }
 // delayForSecond(function () {
 //   console.log("Привет, Глеб!");
 // });
