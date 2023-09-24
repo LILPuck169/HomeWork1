@@ -14,22 +14,20 @@ function date() {
 }
 
 function playGame() {
-  let words = [
-    "Яблоко",
-    "Груша",
-    "Дыня",
-    "Виноград",
-    "Персик",
-    "Апельсин",
-    "Мандарин",
-  ];
+  let words = ["яблоко", "груша", "дыня", "виноград", "персик", "мандарин"];
   words.sort(() => Math.random() - 0.5);
   alert(words.join(", "));
   let firstWord = prompt("Чему равнялся первый элемент массива?");
   let lastWord = prompt("Чему равнялся последний элемент массива?");
-  if (firstWord === words[0] && lastWord === words[words.length - 1]) {
+  if (
+    firstWord.toLowerCase() === words[0] &&
+    lastWord.toLowerCase() === words[words.length - 1]
+  ) {
     alert("Поздравляем! Вы угадали оба слова!");
-  } else if (firstWord === words[0] || lastWord === words[words.length - 1]) {
+  } else if (
+    firstWord.toLowerCase() === words[0] ||
+    lastWord.toLowerCase() === words[words.length - 1]
+  ) {
     alert("Вы были близки к победе!");
   } else {
     alert("Вы ответили неверно!");
